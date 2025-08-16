@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Yes Broker",
-  description: "Start Your Property Journey",
+  description: "Start Your Property Journey with us",
 };
 
 export default function RootLayout({ children }) {
