@@ -117,7 +117,7 @@ export default function ListingsPage() {
               key={p._id}
               className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-transform duration-300 hover:-translate-y-1 animate-fadeUp"
             >
-              <PropertyCard property={p} hasPaid={false} apiBase={process.env.NEXT_PUBLIC_API_BASE}/>
+              <PropertyCard property={p} apiBase={process.env.NEXT_PUBLIC_API_BASE}/>
             </div>
           ))}
         </div>
